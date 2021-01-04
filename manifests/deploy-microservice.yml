@@ -57,9 +57,9 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /terrible-law(/|$)(.*)
                         backend:
-                            serviceName: mild-temper-microservice-service
+                            serviceName: terrible-law-microservice-service
                             servicePort: 30201
 
 
